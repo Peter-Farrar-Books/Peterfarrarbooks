@@ -1,14 +1,7 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "peterfarrarbooks",
+  "pages_build_output_dir": "./peterfarrarbooks",
   "compatibility_date": "2026-05-01",
-  "observability": {
-    "enabled": true
-  },
-  "assets": {
-    "directory": "peterfarrarbooks"
-  },
-  "compatibility_flags": [
-    "nodejs_compat"
-  ]
+  "compatibility_flags": ["nodejs_compat"]
 }
